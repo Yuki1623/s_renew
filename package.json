@@ -1,0 +1,27 @@
+{
+  "name": "s_renew",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Yuki1623/s_renew.git"
+  },
+  "author": "Yuki1623",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Yuki1623/s_renew/issues"
+  },
+  "homepage": "https://github.com/Yuki1623/s_renew#readme",
+  "dependencies": {},
+  "devDependencies": {
+    "gulp": "^4.0.2",
+    "gulp-autoprefixer": "^6.1.0",
+    "gulp-notify": "^3.2.0",
+    "gulp-plumber": "^1.2.1",
+    "gulp-sass": "^4.0.2"
+  }
+}
