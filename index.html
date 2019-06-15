@@ -1,16 +1,21 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="ja">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>(STARS, Inc.)</title>
+    <link href="https://fonts.googleapis.com/css?family=Montserrat:300,500|Noto+Sans+JP:400,500,700|Roboto:400,500&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="./css/reset.css">
+    <link rel="stylesheet" href="./css/common.css">
+    <title>STARS, Inc.</title>
 </head>
+
 <body>
-    <div class="billboard">
+    <div class="hero">
         <header class="header">
             <h1 class="mainTitle">STARS. Inc.</h1>
-            <div class="hbBtn">f¥</div>
+            <div class="hBtn">三</div>
             <nav class="headerNav">
                 <ul>
                     <li><a href="#services">SERVICES</a></li>
@@ -23,30 +28,34 @@
                 </ul>
             </nav>
         </header>
-        <div class="billboard_inner">
+        <div class="hero_inner">
             <p>若年層に特化した次世代の総合エンターテイメントカンパニーです。</p>
             <p>STARS（スターズ）株式会社は、イベント、PRを軸とした PRカンパニーです。</p>
         </div>
-        <div class="arrow">arrow</div>
+        <div class="arrow">🔽</div>
     </div>
     <main>
         <section class="mainCont" id="services">
             <h1 class="mainCont_title">SERVICES</h1>
             <ul>
                 <li>
-                    <h2>EVENT<div>イベント事業</div></h2>
+                    <h2>EVENT<div>イベント事業</div>
+                    </h2>
                     <p>クライアントの要望で若者のニーズにあったイベントをご提案します。</p>
                 </li>
                 <li>
-                    <h2>PROMOTION<div>PR事業</div></h2>
+                    <h2>PROMOTION<div>PR事業</div>
+                    </h2>
                     <p>YouTuberやバズ企画などをご提案します。</p>
                 </li>
                 <li>
-                    <h2>CASTING<div>キャスティング 人材事業</div></h2>
+                    <h2>CASTING<div>キャスティング 人材事業</div>
+                    </h2>
                     <p>豊富なネットワークにより最適な人材をアサインします。</p>
                 </li>
                 <li>
-                    <h2>ADVISOR<div>顧問事業</div></h2>
+                    <h2>ADVISOR<div>顧問事業</div>
+                    </h2>
                     様々な事業を支援します。上場企業や大手ユーチューバー会社など様々な会社を支援しています。
                 </li>
             </ul>
@@ -88,15 +97,58 @@
         </section>
         <section id="media">
             <h1>メディア出演はこちら</h1>
-
+            <article class="card">
+                <img src="./assets/media1.png" alt="">
+                <p class="card_janre">【TV出演】</p>
+                <p class="card_main">日本テレビ『シューイチ』『めざましテレビ』出演。</p>
+                <p class="date">2017.08.06</p>
+            </article>
+            <article class="card">
+                <img src="./assets/media1.png" alt="">
+                <p class="card_janre">【TV出演】</p>
+                <p class="card_main">日本テレビ『シューイチ』『めざましテレビ』出演。</p>
+                <p class="date">2017.08.06</p>
+            </article>
+            <article class="card">
+                <img src="./assets/media1.png" alt="">
+                <p class="card_janre">【TV出演】</p>
+                <p class="card_main">日本テレビ『シューイチ』『めざましテレビ』出演。</p>
+                <p class="date">2017.08.06</p>
+            </article>
+        </section>
+        <section id="recruit">
+            <h1>RECRUIT</h1>
+            <p>STARS株式会社では、通年で採用の募集をしております。一緒に働きたい方と言っていただける方とお会いできることを心待ちにしております！</p>
+            <button>今すぐお問い合わせ</button>
+        </section>
+        <section id="company">
+            <h1>COMPANY</h1>
+            <dl>
+                <dt>会社名</dt>
+                <dd>STARS株式会社</dd>
+                <dt>代表者</dt>
+                <dd>代表取締役社長 大池知博</dd>
+                <dt>所在地</dt>
+                <dd>東京都港区芝3-15-13 YODAビル4F</dd>
+                <dt>第二オフィス</dt>
+                <dd>【TUNEL TOKYO】東京都品川区西品川一丁目1-1 住友不動産大崎ガーデンタワー 9階</dd>
+                <dt>事業内容</dt>
+                <dd>エンターテイメント事業 SNSマーケティング事業 イベント事業</dd>
+                <dt></dt>
+                <dd></dd>
+                <dt></dt>
+                <dd></dd>
+                <dt></dt>
+                <dd></dd>
+            </dl>
         </section>
         <section id="contact">
             <h1>CONTACT</h1>
             <p>企画やマーケティングのご相談など、お気軽にお問い合わせください。</p>
             <form action="contact.php" method="POST">
-                <input type="text" placeholder="お名前">
-                <input type="email" placeholder="メールアドレス">
-                <input type="text" name="" placeholder="お問い合わせ内容">
+                <input type="text" name="name" placeholder="お名前">
+                <input type="email" name="email" placeholder="メールアドレス">
+                <textarea name="inquiry" cols="30" rows="10">お問い合わせ内容</textarea>
                 <button type="submit">内容を送信</button>
             </form>
         </section>
@@ -106,4 +158,5 @@
         <p class="copyright">&copy; 2019 STARS, Inc.</p>
     </footer>
 </body>
+
 </html>
