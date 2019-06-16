@@ -3,9 +3,12 @@
 
 <head>
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <link href="https://fonts.googleapis.com/css?family=Montserrat:300,500|Noto+Sans+JP:400,500,700|Roboto:400,500&display=swap" rel="stylesheet">
+    <link href="https://use.fontawesome.com/releases/v5.6.1/css/all.css" rel="stylesheet">
+    <link
+        href="https://fonts.googleapis.com/css?family=Montserrat:300,500|Noto+Sans+JP:400,500,700,900|Roboto:400,500&display=swap"
+        rel="stylesheet">
     <link rel="stylesheet" href="./css/reset.css">
     <link rel="stylesheet" href="./css/common.css">
     <title>STARS, Inc.</title>
@@ -14,148 +17,197 @@
 <body>
     <div class="hero">
         <header class="header">
-            <h1 class="mainTitle">STARS. Inc.</h1>
-            <div class="hBtn">三</div>
-            <nav class="headerNav">
-                <ul>
-                    <li><a href="#services">SERVICES</a></li>
-                    <li><a href="#caseStudies">CASE STUDIES</a></li>
-                    <li><a href="#clients">CLIENTS</a></li>
-                    <li><a href="#media">MEDIA</a></li>
-                    <li><a href="#recruit">RECRUIT</a></li>
-                    <li><a href="#company">COMPANY</a></li>
-                    <li><a href="#contact">CONTACT</a></li>
-                </ul>
-            </nav>
+            <h1 class="mainTitle">STARS, Inc.</h1>
+            <div class="hBtn"><i class="fas fa-bars navBtn"></i><i class="fas fa-times navBtn-clicked"></i></div>
         </header>
-        <div class="hero_inner">
-            <p>若年層に特化した次世代の総合エンターテイメントカンパニーです。</p>
-            <p>STARS（スターズ）株式会社は、イベント、PRを軸とした PRカンパニーです。</p>
+        <nav class="headerNav">
+            <ul>
+                <li><a href="#services">SERVICES</a></li>
+                <li><a href="#caseStudies">CASE STUDIES</a></li>
+                <li><a href="#clients">CLIENTS</a></li>
+                <li><a href="#media">MEDIA</a></li>
+                <li><a href="#recruit">RECRUIT</a></li>
+                <li><a href="#company">COMPANY</a></li>
+                <li><a href="#contact">CONTACT</a></li>
+            </ul>
+        </nav>
+        <div class="hero_main">
+            <p class="hero_main_text"><span>若年層に特化した次世代の</span><span>総合エンターテイメント</span><span>カンパニーです。</span></p>
+            <p class="hero_main_subText"><span>STARS（スターズ）株式会社は、</span><span>イベント、PRを軸とした PRカンパニーです。</span></p>
         </div>
-        <div class="arrow">🔽</div>
+        <div class="arrow"><i class="fas fa-chevron-down"></i></div>
     </div>
     <main>
-        <section class="mainCont" id="services">
-            <h1 class="mainCont_title">SERVICES</h1>
-            <ul>
-                <li>
-                    <h2>EVENT<div>イベント事業</div>
-                    </h2>
-                    <p>クライアントの要望で若者のニーズにあったイベントをご提案します。</p>
-                </li>
-                <li>
-                    <h2>PROMOTION<div>PR事業</div>
-                    </h2>
-                    <p>YouTuberやバズ企画などをご提案します。</p>
-                </li>
-                <li>
-                    <h2>CASTING<div>キャスティング 人材事業</div>
-                    </h2>
-                    <p>豊富なネットワークにより最適な人材をアサインします。</p>
-                </li>
-                <li>
-                    <h2>ADVISOR<div>顧問事業</div>
-                    </h2>
-                    様々な事業を支援します。上場企業や大手ユーチューバー会社など様々な会社を支援しています。
-                </li>
-            </ul>
-        </section>
-        <section class="mainCont">
-            <h1 class="mainCont_title">CASE STUDIES</h1>
-            <figure>
-                <img src="./assets/02_event/01_TRF.jpg" alt="">
-                <figcaption>TOKYO RECRUIT FESTIVAL</figcaption>
-            </figure>
-            <figure>
-                <img src="./assets/02_event/01_TRF.jpg" alt="">
-                <figcaption>TOKYO RECRUIT FESTIVAL</figcaption>
-            </figure>
-            <figure>
-                <img src="./assets/02_event/01_TRF.jpg" alt="">
-                <figcaption>TOKYO RECRUIT FESTIVAL</figcaption>
-            </figure>
-            <figure>
-                <img src="./assets/02_event/01_TRF.jpg" alt="">
-                <figcaption>TOKYO RECRUIT FESTIVAL</figcaption>
-            </figure>
-            <figure>
-                <img src="./assets/02_event/01_TRF.jpg" alt="">
-                <figcaption>TOKYO RECRUIT FESTIVAL</figcaption>
-            </figure>
-            <figure>
-                <img src="./assets/02_event/01_TRF.jpg" alt="">
-                <figcaption>TOKYO RECRUIT FESTIVAL</figcaption>
-            </figure>
-            <figure>
-                <img src="./assets/02_event/01_TRF.jpg" alt="">
-                <figcaption>TOKYO RECRUIT FESTIVAL</figcaption>
-            </figure>
-            <figure>
-                <img src="./assets/02_event/01_TRF.jpg" alt="">
-                <figcaption>TOKYO RECRUIT FESTIVAL</figcaption>
-            </figure>
-        </section>
-        <section id="media">
-            <h1>メディア出演はこちら</h1>
-            <article class="card">
-                <img src="./assets/media1.png" alt="">
-                <p class="card_janre">【TV出演】</p>
-                <p class="card_main">日本テレビ『シューイチ』『めざましテレビ』出演。</p>
-                <p class="date">2017.08.06</p>
-            </article>
-            <article class="card">
-                <img src="./assets/media1.png" alt="">
-                <p class="card_janre">【TV出演】</p>
-                <p class="card_main">日本テレビ『シューイチ』『めざましテレビ』出演。</p>
-                <p class="date">2017.08.06</p>
-            </article>
-            <article class="card">
-                <img src="./assets/media1.png" alt="">
-                <p class="card_janre">【TV出演】</p>
-                <p class="card_main">日本テレビ『シューイチ』『めざましテレビ』出演。</p>
-                <p class="date">2017.08.06</p>
-            </article>
-        </section>
-        <section id="recruit">
-            <h1>RECRUIT</h1>
-            <p>STARS株式会社では、通年で採用の募集をしております。一緒に働きたい方と言っていただける方とお会いできることを心待ちにしております！</p>
-            <button>今すぐお問い合わせ</button>
-        </section>
-        <section id="company">
-            <h1>COMPANY</h1>
-            <dl>
-                <dt>会社名</dt>
-                <dd>STARS株式会社</dd>
-                <dt>代表者</dt>
-                <dd>代表取締役社長 大池知博</dd>
-                <dt>所在地</dt>
-                <dd>東京都港区芝3-15-13 YODAビル4F</dd>
-                <dt>第二オフィス</dt>
-                <dd>【TUNEL TOKYO】東京都品川区西品川一丁目1-1 住友不動産大崎ガーデンタワー 9階</dd>
-                <dt>事業内容</dt>
-                <dd>エンターテイメント事業 SNSマーケティング事業 イベント事業</dd>
-                <dt></dt>
-                <dd></dd>
-                <dt></dt>
-                <dd></dd>
-                <dt></dt>
-                <dd></dd>
-            </dl>
-        </section>
-        <section id="contact">
-            <h1>CONTACT</h1>
-            <p>企画やマーケティングのご相談など、お気軽にお問い合わせください。</p>
-            <form action="contact.php" method="POST">
-                <input type="text" name="name" placeholder="お名前">
-                <input type="email" name="email" placeholder="メールアドレス">
-                <textarea name="inquiry" cols="30" rows="10">お問い合わせ内容</textarea>
-                <button type="submit">内容を送信</button>
-            </form>
-        </section>
+        <div class="main_inner">
+            <section class="mainCont" id="services">
+                <h1 class="mainCont_title">SERVICES</h1>
+                <ul>
+                    <li class="card-shadow">
+                        <h2>EVENT<div>イベント事業</div>
+                        </h2>
+                        <p>クライアントの要望で若者のニーズにあったイベントをご提案します。</p>
+                    </li>
+                    <li class="card-shadow">
+                        <h2>PROMOTION<div>PR事業</div>
+                        </h2>
+                        <p>YouTuberやバズ企画などをご提案します。</p>
+                    </li>
+                    <li class="card-shadow">
+                        <h2>CASTING<div>キャスティング 人材事業</div>
+                        </h2>
+                        <p>豊富なネットワークにより最適な人材をアサインします。</p>
+                    </li>
+                    <li class="card-shadow">
+                        <h2>ADVISOR<div>顧問事業</div>
+                        </h2>
+                        <p>様々な事業を支援します。上場企業や大手ユーチューバー会社など様々な会社を支援しています。</p>
+                    </li>
+                </ul>
+            </section>
+            <section class="mainCont" id="caseStudies">
+                <h1 class="mainCont_title">CASE STUDIES</h1>
+                <figure class="case">
+                    <img class="case_img" src="./assets/case1.png" alt="">
+                    <figcaption class="case_name">TOKYO RECRUIT FESTIVAL</figcaption>
+                </figure>
+                <figure class="case">
+                    <img class="case_img" src="./assets/case2.png" alt="">
+                    <figcaption class="case_name">東京スカイツリータウン７周年記念イベント</figcaption>
+                </figure>
+                <figure class="case">
+                    <img class="case_img" src="./assets/case3.png" alt="">
+                    <figcaption class="case_name">東京アイスクリームランド</figcaption>
+                </figure>
+                <figure class="case">
+                    <img class="case_img" src="./assets/case4.png" alt="">
+                    <figcaption class="case_name">インスタ就活</figcaption>
+                </figure>
+                <figure class="case">
+                    <img class="case_img" src="./assets/case5.png" alt="">
+                    <figcaption class="case_name">テレ朝日・六本木ヒルズ　夏祭り</figcaption>
+                </figure>
+                <figure class="case">
+                    <img class="case_img" src="./assets/02_event/06_Under30.png" alt="">
+                    <figcaption class="case_name">UNDER 30 CEO CONFERENCE</figcaption>
+                </figure>
+                <figure class="case">
+                    <img class="case_img" src="./assets/case6.png" alt="">
+                    <figcaption class="case_name">セガコワーキンスペースPRアンバサダー</figcaption>
+                </figure>
+                <figure class="case">
+                    <img class="case_img" src="./assets/case7.png" alt="">
+                    <figcaption class="case_name">亀田が勝ったら1000万円キャスティング</figcaption>
+                </figure>
+            </section>
+            <section class="mainCont" id="media">
+                <h1 class="mainCont_title-plain">メディア出演はこちら</h1>
+                <article class="card">
+                    <img src="./assets/media1.png" alt="">
+                    <div class="card_subjects">
+                        <p class="card_janre">【TV出演】</p>
+                        <p class="card_main">日本テレビ『シューイチ』『めざましテレビ』出演。</p>
+                        <p class="card_date">2017.08.06</p>
+                    </div>
+                </article>
+                <article class="card">
+                    <img src="./assets/media2.png" alt="">
+                    <div class="card_subjects">
+                        <p class="card_janre">【メディア取材】</p>
+                        <p class="card_main">Cyber Agent『HASIGO』インタビュー記事掲載。</p>
+                        <p class="card_date">2017.10.03</p>
+                    </div>
+                </article>
+                <article class="card">
+                    <img src="./assets/media3.png" alt="">
+                    <div class="card_subjects">
+                        <p class="card_janre">【登壇】</p>
+                        <p class="card_main">伊藤忠ファッションイベント『第7回ifs ナレッジフォーラム』登壇。</p>
+                        <p class="card_date">2017.07.27</p>
+                    </div>
+                </article>
+                <article class="card">
+                    <img src="./assets/media4.png" alt="">
+                    <div class="card_subjects">
+                        <p class="card_janre">【登壇】</p>
+                        <p class="card_main">『TOKYO RECRUIT FESTIVAL』モデレーターで、SHOWROOM代表やエイベックス役員などと登壇。</p>
+                        <p class="card_date">2017.07.27</p>
+                    </div>
+                </article>
+            </section>
+            <section class="mainCont" id="recruit">
+                <h1 class="mainCont_title">RECRUIT</h1>
+                <p class="recruit_mainTxt">STARS株式会社では、通年で採用の募集をしております。一緒に働きたい方と言っていただける方とお会いできることを心待ちにしております！</p>
+                <a href="#contact" class="runBtn">今すぐ問い合わせ</a>
+            </section>
+            <section class="mainCont" id="company">
+                <h1 class="mainCont_title">COMPANY</h1>
+                <dl class="companyDetail">
+                    <div class="companyDetail_row"><dt>会社名</dt>
+                    <dd>STARS株式会社</dd></div>
+                    <div class="companyDetail_row"><dt>代表者</dt>
+                    <dd>代表取締役社長 大池知博</dd></div>
+                    <div class="companyDetail_row"><dt>所在地</dt>
+                    <dd>東京都港区芝3-15-13 YODAビル4F</dd></div>
+                    <div class="companyDetail_row"><dt>
+                        <span class="-break">第二</span>
+                        <span class="-break">オフィス</span>
+                    </dt>
+                    <dd>
+                        <div class="break">【TUNEL TOKYO】</span>
+                        <div class="break">東京都品川区西品川一丁目1-1</span>
+                        <div class="break">住友不動産大崎ガーデンタワー 9階</span>
+                    </dd></div>
+                    <div class="companyDetail_row"><dt>事業内容</dt>
+                    <dd>
+                        <div class="break">エンターテイメント事業</span>
+                        <div class="break">SNSマーケティング事業</span>
+                        <div class="break">イベント事業</span>
+                    </dd></div>
+                    <div class="companyDetail_row"><dt>取引実績</dt>
+                    <dd >
+                        <div class="break fz14">アメリカン・エキスプレス・ジャパン</span>
+                        <div class="break fz14">伊藤忠ファッションシステム株式会社</span>
+                        <div class="break fz14">エイベックス・グループ・ホールディングス株式会社</span>
+                        <div class="break fz14">株式会社アカツキ</span>
+                        <div class="break fz14">株式会社カプコン</span>
+                        <div class="break fz14">株式会社サイバーエージェント</span>
+                        <div class="break fz14">株式会社スクエア・エニックス・ホールディングス</span>
+                        <div class="break fz14">株式会社ベクトル</span>
+                        <div class="break fz14">株式会社ミクシィ</span>
+                        <div class="break fz14">株式会社AbemaTV</span>
+                        <div class="break fz14">株式会社DMM.com</span>
+                        <div class="break fz14">株式会社LDH JAPAN</span>
+                        <div class="break fz14">株式会社USEN-NEXT HOLDINGS</span>
+                        <div class="break fz14">クルーズ株式会社</span>
+                        <div class="break fz14">セガサミーホールディングス株式会社</span>
+                        <div class="break fz14">ソフトバンク株式会社</span>
+                        <div class="break fz14">第一生命保険株式会社</span>
+                        <div class="break fz14">日本テレビ放送網株式会社</span>
+                        <div class="break fz14">楽天株式会社</span>
+                        <div class="break fz14">auコマース＆ライフ株式会社</span>
+                        <div class="break fz14">KLab株式会社</span>
+                    </dd></div>
+                    <div class="companyDetail_row"><dt>資本金</dt>
+                    <dd>6,000,000円</dd></div>
+                    <div class="companyDetail_row"><dt>資本主</dt>
+                    <dd>100% 大池知博</dd></div>
+                </dl>
+            </section>
+            <section class="mainCont" id="contact">
+                <h1 class="mainCont_title">CONTACT</h1>
+                <p class="contact_mainTxt"><span>企画やマーケティングのご相談など、</span><span>お気軽にお問い合わせください。</span></p>
+                <form class="contactForm" action="contact.php" method="POST">
+                    <input class="contactForm_input" type="text" name="name" placeholder="お名前">
+                    <input class="contactForm_input" type="email" name="email" placeholder="メールアドレス">
+                    <textarea class="contactForm_input" name="inquiry" cols="30" rows="10" placeholder="お問い合わせ内容"></textarea>
+                    <button type="submit" class="contactForm_submit runBtn">内容を送信</button>
+                </form>
+            </section>
+        </div>
     </main>
     <footer>
-        <p>STARS, Inc.</p>
-        <p class="copyright">&copy; 2019 STARS, Inc.</p>
+        <p class="footer_title">STARS, Inc.</p>
+        <p class="footer_copyright">&copy; 2019 STARS, Inc.</p>
     </footer>
 </body>
 
