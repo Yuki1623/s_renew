@@ -105,7 +105,7 @@ body{
 }
 .hero_main_subText span{
   font-size: 1.4rem;
-  display: inline-block;
+  display: block;
   line-height: 1.5;
 }
 .arrow{
@@ -333,9 +333,11 @@ footer{
   font-size: 10px;
 }
 
-@media screen and (min-width: 768px) and (max-width: 1279px) {
+@media screen and (min-width: 768px)   {
+
   .header{
     padding: 0 50px 0;
+    margin-top: 20px;
   }
   .mainTitle span{
     font-size: 4.0rem;
@@ -343,18 +345,111 @@ footer{
   .hBtn i{
     font-size: 5.0rem;
   }
-  .hero_main_text{
+  .hero_main_text , .hero_main_subText{
     width: 500px;
   }
   .hero_main_text span{
     font-size: 4.0rem;
   }
-  .hero_main_subText{
 
-    text-align: left;
-  }
   .hero_main_subText span{
     font-size: 2.0rem;
     width: 500px;
+    margin: 0;
+  }
+  .main_inner{
+    width: 645px;
+    padding: 0;
+    margin-left: auto; margin-right: auto;
+  }
+  #services ul{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: baseline;
+  }
+  .card-shadow{
+    width: 290px;
+  }
+  #caseStudies .mainCont_inner{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: baseline;
+  }
+  .case_img{
+    width: 300px;
+  }
+
+  #media main{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: baseline;
+  }
+  .card{
+    width: 300px;
+    height: 360px;
+  }
+  .recruit_mainTxt{
+    width: 440px; 
+    font-size: 20px;  
+    margin-left: auto;
+    margin-right: auto;
+  }
+  #company main{
+    width: 440px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  #contact main{
+    width: 440px;
+    margin-right: auto;
+    margin-left: auto;
+  }
+  .contactForm_input{
+    width: 100%;
+  }
+}
+
+@media screen and (min-width: 1440px){
+  .hero{
+    height: 800px; 
+  }
+  .hero_main{
+    width: 1050px;
+  }
+  .hero_main_text {
+    width: 1050px;
+    margin-left: 0;
+    margin-right: 0;
+  }
+  .hero_main_text span{
+    font-size: 7.0rem;
+    
+  }
+  .hero_main_subText{
+    width: 1050px;
+  }
+  .hero_main_subText span{
+    width: 100%;
+    display: inline;
+    font-size: 27px;
+  }
+  .main_inner{
+    width: 1260px;  
+  }
+  #services ul{
+    flex-wrap: nowrap;
+
+  }
+  .recruit_mainTxt{
+    width: 600px;
+  }
+  #company main{
+    width: 600px;
+  }
+  #contact main{
+    width: 600px;
   }
 }
