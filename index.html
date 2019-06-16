@@ -18,9 +18,9 @@
     <div class="hero">
         <header class="header">
             <h1 class="mainTitle">STARS, Inc.</h1>
-            <div class="hBtn"><i class="fas fa-bars navBtn"></i><i class="fas fa-times navBtn-clicked"></i></div>
+            <div class="hBtn" id="menuToggleBtn"><i class="fas fa-bars navBtn" id="openBtn" onclick="clickBtn1()"></i><i class="fas fa-times navBtn-clicked" id="closeBtn" onclick="clickBtn2()"></i></div>
         </header>
-        <nav class="headerNav">
+        <nav class="headerNav" id="headerNav">
             <ul>
                 <li><a href="#services">SERVICES</a></li>
                 <li><a href="#caseStudies">CASE STUDIES</a></li>
@@ -31,7 +31,7 @@
                 <li><a href="#contact">CONTACT</a></li>
             </ul>
         </nav>
-        <div class="hero_main">
+        <div class="hero_main" id="hero_main">
             <p class="hero_main_text"><span>若年層に特化した次世代の</span><span>総合エンターテイメント</span><span>カンパニーです。</span></p>
             <p class="hero_main_subText"><span>STARS（スターズ）株式会社は、</span><span>イベント、PRを軸とした PRカンパニーです。</span></p>
         </div>
@@ -218,5 +218,6 @@
         <p class="footer_copyright">&copy; 2019 STARS, Inc.</p>
     </footer>
 </body>
-
+<script src="./js/script.js">
+</script>
 </html>
