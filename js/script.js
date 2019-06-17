@@ -3,7 +3,6 @@
 
 
 function clickBtn1(){
-    console.group('aaa');
     const p1 = document.getElementById("headerNav");
     const p2 = document.getElementById("hero_main");
     const open = document.getElementById("openBtn");
