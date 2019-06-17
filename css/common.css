@@ -351,6 +351,7 @@ footer{
   .hBtn i{
     font-size: 5.0rem;
   }
+
   .hero_main_text , .hero_main_subText{
     width: 500px;
   }
@@ -419,6 +420,9 @@ footer{
 }
 
 @media screen and (min-width: 1440px){
+  .headerNav ul{
+    height: 100%;
+  }
   .hero{
     height: 800px; 
   }
