@@ -24,3 +24,4 @@ function clickBtn2(){
     close.style.display ='none';
 
 }
+
