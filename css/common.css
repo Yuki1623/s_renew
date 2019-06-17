@@ -419,8 +419,11 @@ footer{
 }
 
 @media screen and (min-width: 1440px){
+  .headerNav {
+    height: calc(800px - 82px);
+  }  
   .headerNav ul{
-    height: 100%;
+    height: calc(800px - 82px);
   }
   .hero{
     height: 800px; 
