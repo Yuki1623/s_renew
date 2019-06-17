@@ -351,6 +351,9 @@ footer{
   .hBtn i{
     font-size: 5.0rem;
   }
+  .headerNav ul{
+    height: 100%;
+  }
   .hero_main_text , .hero_main_subText{
     width: 500px;
   }
